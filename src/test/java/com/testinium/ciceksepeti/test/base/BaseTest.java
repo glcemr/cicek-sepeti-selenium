@@ -22,7 +22,7 @@ public class BaseTest {
 
     @After
     public void bitir() throws InterruptedException {
-        Thread.sleep(2000);
-        // driver.quit();
+        TimeUnit.SECONDS.sleep(3);
+        driver.quit();
     }
 }
